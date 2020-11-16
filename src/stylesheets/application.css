@@ -1,7 +1,17 @@
-@import url('~normalize.css/normalize.css');
+@import url('~bootstrap/dist/css/bootstrap.css');
 
 * {
   box-sizing: border-box;
 }
 
 /* TODO */
+.jumbotron{
+  background-image: URL(https://images.unsplash.com/photo-1594836282279-612ad5560ab7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80.jpg);
+background-size: cover;
+background-position: 0-200px;
+color:white;
+}
+
+footer{
+  background: black;
+}
